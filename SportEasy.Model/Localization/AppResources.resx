@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fr-FR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="string_Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="string_Add_Friday" xml:space="preserve">
+    <value>Vendredi</value>
+  </data>
+  <data name="string_Add_Monday" xml:space="preserve">
+    <value>Lundi</value>
+  </data>
+  <data name="string_Add_Saturday" xml:space="preserve">
+    <value>Samedi</value>
+  </data>
+  <data name="string_Add_Sunday" xml:space="preserve">
+    <value>Dimanche</value>
+  </data>
+  <data name="string_Add_Thurdsay" xml:space="preserve">
+    <value>Jeudi</value>
+  </data>
+  <data name="string_Add_Tuesday" xml:space="preserve">
+    <value>Mardi</value>
+  </data>
+  <data name="string_Add_Wesneday" xml:space="preserve">
+    <value>Mercredi</value>
+  </data>
+  <data name="string_AppSubTitle" xml:space="preserve">
+    <value>l'appli des amateurs</value>
+  </data>
+  <data name="string_AppTitle" xml:space="preserve">
+    <value>SportEasy</value>
+  </data>
+  <data name="string_April" xml:space="preserve">
+    <value>Avr.</value>
+  </data>
+  <data name="string_AreYoufree" xml:space="preserve">
+    <value>Etes vous disponible ?</value>
+  </data>
+  <data name="string_August" xml:space="preserve">
+    <value>Aout</value>
+  </data>
+  <data name="string_Calendar" xml:space="preserve">
+    <value>calendrier</value>
+  </data>
+  <data name="string_Connect" xml:space="preserve">
+    <value>se connecter</value>
+  </data>
+  <data name="string_December" xml:space="preserve">
+    <value>Dec.</value>
+  </data>
+  <data name="string_DontPlay" xml:space="preserve">
+    <value>ne jouent pas</value>
+  </data>
+  <data name="string_Email" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="string_February" xml:space="preserve">
+    <value>Fév.</value>
+  </data>
+  <data name="string_Firstname" xml:space="preserve">
+    <value>prénom</value>
+  </data>
+  <data name="string_Games" xml:space="preserve">
+    <value>matchs</value>
+  </data>
+  <data name="string_Info" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="string_January" xml:space="preserve">
+    <value>Janv.</value>
+  </data>
+  <data name="string_July" xml:space="preserve">
+    <value>Juil.</value>
+  </data>
+  <data name="string_June" xml:space="preserve">
+    <value>Juin</value>
+  </data>
+  <data name="string_Lastname" xml:space="preserve">
+    <value>nom</value>
+  </data>
+  <data name="string_Location" xml:space="preserve">
+    <value>Lieux</value>
+  </data>
+  <data name="string_March" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="string_MatchDetails" xml:space="preserve">
+    <value>feuille de match</value>
+  </data>
+  <data name="string_May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="string_Maybe" xml:space="preserve">
+    <value>peut être</value>
+  </data>
+  <data name="string_MissingEmail" xml:space="preserve">
+    <value>Veuillez saisir un email.</value>
+  </data>
+  <data name="string_MissingFirstname" xml:space="preserve">
+    <value>Veuillez saisir un prénom.</value>
+  </data>
+  <data name="string_MissingLastname" xml:space="preserve">
+    <value>Veuillez saisir un nom.</value>
+  </data>
+  <data name="string_MissingPassword" xml:space="preserve">
+    <value>Veuillez saisir un mot de passe.</value>
+  </data>
+  <data name="string_MissingPasswordConfirmed" xml:space="preserve">
+    <value>Veuillez saisir un mot de passe de confirmation.</value>
+  </data>
+  <data name="string_MyTeams" xml:space="preserve">
+    <value>mes equipes</value>
+  </data>
+  <data name="string_No" xml:space="preserve">
+    <value>non</value>
+  </data>
+  <data name="string_November" xml:space="preserve">
+    <value>Nov.</value>
+  </data>
+  <data name="string_October" xml:space="preserve">
+    <value>Oct.</value>
+  </data>
+  <data name="string_Participant" xml:space="preserve">
+    <value>participant</value>
+  </data>
+  <data name="string_Password" xml:space="preserve">
+    <value>mot de passe</value>
+  </data>
+  <data name="string_PasswordConfirmed" xml:space="preserve">
+    <value>mot de passe (confirmation)</value>
+  </data>
+  <data name="string_Play" xml:space="preserve">
+    <value>jouent</value>
+  </data>
+  <data name="string_Players" xml:space="preserve">
+    <value>joueurs</value>
+  </data>
+  <data name="string_PlayQuestion" xml:space="preserve">
+    <value>Joue ?</value>
+  </data>
+  <data name="string_RdvAt" xml:space="preserve">
+    <value>RDV à</value>
+  </data>
+  <data name="string_RecallPlayers" xml:space="preserve">
+    <value>Relancer les joueurs</value>
+  </data>
+  <data name="string_Register" xml:space="preserve">
+    <value>s'inscrire</value>
+  </data>
+  <data name="string_September" xml:space="preserve">
+    <value>Sept.</value>
+  </data>
+  <data name="string_StartAt" xml:space="preserve">
+    <value>Début à</value>
+  </data>
+  <data name="string_WhereQuestion" xml:space="preserve">
+    <value>Ou ?</value>
+  </data>
+  <data name="string_Yes" xml:space="preserve">
+    <value>oui</value>
+  </data>
+  <data name="string_Disconnect" xml:space="preserve">
+    <value>déconnexion</value>
+  </data>
+</root>
